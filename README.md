@@ -2,7 +2,7 @@
 This repository will work as a IaC guide and library. It will have section describing IacC, how to get started with IaC, pratical examples of IaC, different IaC options and tools, and lastely different design decisions and IaC architecture.
 
 # Table of Content
-* [Terraform](/Terraform/readme.md)
+* [Terraform](/Terraform/)
 * Something about Ansible
 * Something about Puppet
 * Something about Chef
