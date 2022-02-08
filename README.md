@@ -87,7 +87,7 @@ With Immutable infrastrucutre one eliminate the challanges with configuration dr
 
 **Tord Langedal Ness**  
 COO and Parnter at [Zebra Consulting](https://zebraconsulting.no)    
-<img src="Zebra_Consulting_Icon_Black_Yellow.png" width="48"> 
+<img src="./Zebra_Consulting_Icon_Black_Yellow.png" width="48"> 
 
 
 
