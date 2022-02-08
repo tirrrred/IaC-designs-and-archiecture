@@ -2,7 +2,7 @@
 This repository will work as a IaC guide and library. It will have section describing IacC, how to get started with IaC, pratical examples of IaC, different IaC options and tools, and lastely different design decisions and IaC architecture.
 
 # Table of Content
-* Something about Terraform
+* [Terraform](/Terraform/readme.md)
 * Something about Ansible
 * Something about Puppet
 * Something about Chef
@@ -20,10 +20,28 @@ This repository will work as a IaC guide and library. It will have section descr
 
 <br>
 
-# IaC basics
+# What is IaC
+
+Infrastructure as Code (IaC) is to define, maintain and operate your IT infrastructure as code. It requires to go away from the traditional GUI and writing single commands in CLI, and start defining your infrastructure as code, as a whole. 
+
+## Why IaC
+First of all, lets start with why one should use IaC.
+
+Perhaps the main driver for going the IaC road is to *automate* you infrastructure operations, and thereby reducing lead times. 
+
+Another main advantage of IaC is *documentation*! If implemented IaC in a propper and wholistic way, all of your current infrastrcuture is maintaing in central configuration files. And you can actually trust the documentation for once. 
+
+In addtional to the documentation, you can get your infrastructre *versioned* by using tradional git operations on your code. You can follow the iteration of your infrastructure and see the history.
+
+IaC will also provide you with *consistency*. After developing the code, you can relay on consistent, identical results. With the tradinally point-and-click, or running several single command in the CLI, you are for sure get different results. And it is error-proned as h*ll. Which is antoher advantages of course - *eliminating human errors*.
+
+As the infrastructure code is developed, tested and verfied, the code is *reuseable* and can serve you mutiple times while maintaing the same standards.
+
+Lastly, IaC can help your organization and teams with *brain-drain*. Knowledge about the infrastructure is captured and documented in the code, which prevents spesific knowledge about your infrastructure to be lost when employees move on. 
 
 
-### Configration Management vs Provisioning Tools
+
+## Configration Management vs Provisioning Tools
 Configuration Mangement tools are designed to install and manage software on existing infrastructure (servers), while provisioning tools are designed to provision the infrastructure (servers, load balancers, databases, networks etc.).
 
 Configuration management tools and provisioning tools are not mutally exclusive, and in most cases the tools in each category can to parts of the competive tool category, although in a much less elegant way.
@@ -37,7 +55,7 @@ Configuration management tools also tend to create *mutable* infrastrcuture, whe
 | Puppet | ARM |
 | SatlStack | Biceps |
 
-### Mutable vs Immutable Infrastructure
+## Mutable vs Immutable Infrastructure
 
 **Mutable infrastructure** is a term where infrastructure are liable to change. This implies that infrastructure components like servers can be changed and updated when necessary, like meeting changing requirements or needs for either business or users. Tradionally, infrastructre have been desigend as mutable. 
 
@@ -51,7 +69,7 @@ With Immutable infrastrucutre one eliminate the challanges with configuration dr
 
 
 
-### Procedural vs Declarative  
+## Procedural vs Declarative  
 
 
 
