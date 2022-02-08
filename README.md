@@ -1,12 +1,17 @@
 # Welcome to the IaC design and architecture guide
-This repository will work as a IaC guide and library. It will have section describing IacC, how to get started with IaC, pratical examples of IaC, different IaC options and tools, and lastely different design decisions and IaC architecture.
+This repository will guide you through Infrastructure as Code with different IaC tools and options. It will also contain different *hello world* examples to get startet.  
+<!-- This repository will work as a IaC guide and library. It will have section describing IaC, how to get started with IaC, pratical examples of IaC, different IaC options and tools, and lastely different design decisions and IaC architecture. -->
 
 # Table of Content
+* [Infrastructure as Code](#infrastructure-as-code)
 * [Terraform](/Terraform/)
 * [Ansible](/Ansible/)
 * [Puppet](/Puppet/)
 * [Chef](/Chef/)
 * [SaltStack](/SaltStack/)
+* [CloudFormation](/CloudFormation/)
+* [ARM](/ARM/)
+* [Bicep](/Bicep/)
 <!-- * Something about Ansible
 * Something about Puppet
 * Something about Chef
@@ -24,7 +29,7 @@ This repository will work as a IaC guide and library. It will have section descr
 
 <br>
 
-# What is IaC
+# Infrastructure as Code
 
 Infrastructure as Code (IaC) is to define, maintain and operate your IT infrastructure as code. It requires to go away from the traditional GUI and writing single commands in CLI, and start defining your infrastructure as code, as a whole. 
 
@@ -81,8 +86,9 @@ With Immutable infrastrucutre one eliminate the challanges with configuration dr
 
 
 **Tord Langedal Ness**  
-[Zebra Consulting](https://zebraconsulting.no)  
-![Zebra Consulting](ZebraConsultingIcon.png)
+COO and Parnter at [Zebra Consulting](https://zebraconsulting.no)    
+<img src="Zebra_Consulting_Icon_Black_Yellow.png" width="48"> 
+
 
 
 
