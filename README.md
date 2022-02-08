@@ -3,7 +3,11 @@ This repository will work as a IaC guide and library. It will have section descr
 
 # Table of Content
 * [Terraform](/Terraform/)
-* Something about Ansible
+* [Ansible](/Ansible/)
+* [Puppet](/Puppet/)
+* [Chef](/Chef/)
+* [SaltStack](/SaltStack/)
+<!-- * Something about Ansible
 * Something about Puppet
 * Something about Chef
 * Something about SaltStack
@@ -16,7 +20,7 @@ This repository will work as a IaC guide and library. It will have section descr
 * Something about how to put everything together into a wholistic archeitcture
 * Something about DevOps and processes
 * Something about necessary team knowledge and skillsets
-* Something about Way of Working
+* Something about Way of Working -->
 
 <br>
 
