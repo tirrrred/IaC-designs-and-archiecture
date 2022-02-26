@@ -31,12 +31,12 @@ This repository will guide you through Infrastructure as Code with different IaC
 
 # Infrastructure as Code
 
-Infrastructure as Code (IaC) is to define, maintain and operate your IT infrastructure as code. It requires to go away from the traditional GUI and writing single commands in CLI, and start defining your infrastructure as code, as a whole. 
+Infrastructure as Code (IaC) is to define, provision, manage and operate your IT infrastructure as code. It requires to go away from the traditional GUI and writing single commands in CLI, and start defining your infrastructure as code.
 
 ## Why IaC
 First of all, lets start with why one should use IaC.
 
-Perhaps the main driver for going the IaC road is to *automate* you infrastructure operations, and thereby reducing lead times. 
+Perhaps the main driver for going the IaC road is to *automate* you infrastructure operations, and thereby reducing lead times. With IaC it is easier to automate the deployment process. To get the full potential out of IaC one should incorporate CI/CD pipelines in the deployment process in order to increate speed, but also saftey, as the deployment process will be consistent, repeatable and not proned to manual errors. 
 
 Another main advantage of IaC is *documentation*! If implemented IaC in a propper and wholistic way, all of your current infrastrcuture is maintaing in central configuration files. And you can actually trust the documentation for once. 
 
@@ -44,10 +44,20 @@ In addtional to the documentation, you can get your infrastructre *versioned* by
 
 IaC will also provide you with *consistency*. After developing the code, you can relay on consistent, identical results. With the tradinally point-and-click, or running several single command in the CLI, you are for sure get different results. And it is error-proned as h*ll. Which is antoher advantages of course - *eliminating human errors*.
 
-As the infrastructure code is developed, tested and verfied, the code is *reuseable* and can serve you mutiple times while maintaing the same standards.
+As the infrastructure code is developed, tested and verfied, the code is *reuseable* and can serve you mutiple times while maintaing the same standards. Together with reusable code and automated deployment (through CI/CD pipelines), one can easily create *self-service* options for other teams and developers in the organization. Instead of developers needing to wait for a system administrator to perform a set of manual tasks, the developers can deploy infrastructure whenever necessary.
 
 Lastly, IaC can help your organization and teams with *brain-drain*. Knowledge about the infrastructure is captured and documented in the code, which prevents spesific knowledge about your infrastructure to be lost when employees move on. 
 
+|IaC benefits|
+|------------|
+|Automation|
+|Documentation|
+|Version Control|
+|Consistency|
+|Reduced human errors|
+|Reusable|
+|Self-service|
+|Reduces brain-drian|
 
 
 ## Configration Management vs Provisioning Tools
@@ -66,7 +76,7 @@ Configuration management tools also tend to create *mutable* infrastrcuture, whe
 
 ## Mutable vs Immutable Infrastructure
 
-**Mutable infrastructure** is a term where infrastructure are liable to change. This implies that infrastructure components like servers can be changed and updated when necessary, like meeting changing requirements or needs for either business or users. Tradionally, infrastructre have been desigend as mutable. 
+**Mutable infrastructure** is a term where infrastructure are liable to change. This implies that infrastructure components like servers can be changed and updated when necessary, like adjusting for changing requirements form either business or users. Tradionally, infrastructre have been desigend as mutable. For example, the sysadmins deploy a set of servers, and continuously update and changes those servers. All changes on goes on top of the previous change which creates a history of changes... <--Rewrite me please>
 
 Mutable infrastructre has severel advantages compared to immutable. Tradionally, one could fix problems rapidly, as one used the same infrastructre (servers/VMs) to do necessary changes or updates. Changes and updates can be as simple as configuration settings, software upgrade, or installing new software. Also the infrastrcutre can be tailored to meed the spesific needs of applications or running environments. 
 
@@ -86,8 +96,8 @@ With Immutable infrastrucutre one eliminate the challanges with configuration dr
 
 
 **Tord Langedal Ness**  
-COO and Parnter at [Zebra Consulting](https://zebraconsulting.no)    
-<img src="./Zebra_Consulting_Icon_Black_Yellow.png" width="48"> 
+COO and Partner at [Zebra Consulting](https://zebraconsulting.no)    
+<img src="./images/Zebra_Consulting_Icon_Black_Yellow.png" width="48"> 
 
 
 

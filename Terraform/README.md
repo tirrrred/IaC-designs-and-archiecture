@@ -1,6 +1,6 @@
 # What is Terraform
 
-![Terraform](terraform.png) <br>
+![Terraform](/images/terraform.png) <br>
 Terraform is a IaC tool from Hasicorp. Terraform is used for building, changing, destroying, and versioning infrastrcuture. Many will first think of Terraform as a IaC language, although it is more than that, hence a IaC tool.
 
 ## Why Terraform
