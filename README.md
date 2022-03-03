@@ -96,8 +96,9 @@ With Immutable infrastrucutre one eliminate the challanges with configuration dr
 
 
 **Tord Langedal Ness**  
-COO and Partner at [Zebra Consulting](https://zebraconsulting.no)    
-<img src="/images/Zebra_Consulting_Icon_Black_Yellow.png" width="48"> 
+COO and Partner at [Zebra Consulting](https://zebraconsulting.no)
+*No more black box!*    
+<img src="/images/Zebra_Consulting_Icon_Black_Yellow.PNG" width="48"> 
 
 
 
